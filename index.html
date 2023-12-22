@@ -13,7 +13,7 @@
 <body>
     <div class="container pokedex-container">
         <header class="row pokedex-header">
-            <h1>Kanto Pokedex</h1>
+            <h1>Redman Pokedex</h1>
         </header>
         <section class="pokemon-profile" id="pokemon-profile">
             <div class="pokemon-info" id="pokemon-info">
@@ -21,19 +21,19 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="Select"
                     class="pokemon-image" id="pokemon-image">
                 <div class="info-container" id="info-container">
-                    <div class="container">
+                    <div >
                         <h2>Stats:</h2>
                         <div class="pokemon-stats">
-                            <div class="row">
-                            <div class="col">
-                                <span id="pokemon-abilities-title"><strong>Abilities</strong>:</span>
-                                <span id="pokemon-abilities"></span>
+                            <div class="row mb-2 justify-content-evenly">
+                                <div class="col">
+                                    <span id="pokemon-abilities-title"><strong>Abilities</strong>:</span>
+                                    <span id="pokemon-abilities"></span>
+                                </div>
+                                <div class="col">
+                                    <span id="pokemon-weight-title"><strong>Weight:</strong></span>
+                                    <span id="pokemon-weight"></span>
+                                </div>
                             </div>
-                            <div class="col">
-                                <span id="pokemon-weight-title"><strong>Weight:</strong></span>
-                                <span id="pokemon-weight"></span>
-                            </div>
-                        </div>
                             <div class="row">
                                 <div class="col">
                                     <span id="pokemon-height-title"><strong>Height:</strong></span>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div>
-                        <h2>Moves:</h2>
+                        <h3 class="poke-title-moves">Moves:</h2>
                         <div class="pokemon-moves">
                             <ul class="pokemon-moves-list" id="pokemon-moves-list">
                             </ul>
@@ -59,6 +59,7 @@
                 </div>
 
             </div>
+            <h2 class="poke-title">Pokemon:</h2>
             <div class="pokemon-list">
                 <ul class="list">
                 </ul>
