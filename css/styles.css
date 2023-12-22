@@ -47,7 +47,7 @@ body{
   border: 1px solid #000000;
   display: inline-block;
   margin-top: 5px;
-  width: 460px;
+  width: 400px;
   margin-bottom: 20px;
   height: 130px;
 }
@@ -67,7 +67,7 @@ body{
   overflow-y:scroll;
   height: 180px;
   max-height: 180px;
-  width: 200px;
+  width: 250px;
 }
 
 .pokemon-moves ul {
@@ -129,6 +129,10 @@ body{
 
   }
 
+  .pokemon-stats {
+    width: 460px;
+  }
+
   .list {
     height: 100%;
     padding: 0;
@@ -140,6 +144,7 @@ body{
   .pokemon-list {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
     height: 300px;
     max-height: fit-content;
     padding: 0;
